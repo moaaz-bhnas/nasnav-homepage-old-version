@@ -70,7 +70,7 @@ class Topbar extends Component {
             </li>
           </ul>
         </nav>
-        <button className="button button_color_white topbar__button">Get Started</button>
+        <button className="button button_color_blue topbar__button">Get Started</button>
       </div>
     );
   }

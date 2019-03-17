@@ -1,16 +1,16 @@
 import React from 'react';
 import Topbar from './Topbar';
-import Intro from './Intro';
 import Laptop from './Laptop';
 import curve from '../../image/curve-cropped.png';
 import './Header.scss';
 
-const Header = () => {
+const Header = (props) => {
+  // const 
   return (
     <header className="header" role="banner">
       <div className="container">
         <Topbar />
-        <Intro />
+        {props.intro} {/* <Intro /> */}
         <Laptop />
       </div>
       <img className="header__curve" src={curve} alt="" aria-hidden="true" />

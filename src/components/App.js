@@ -8,6 +8,7 @@ import './Button.scss';
 import './List.scss';
 import './Image.scss';
 import './Paragraph.scss';
+import './Intro.scss';
 import HomePage from './Home/HomePage';
 
 class App extends Component {

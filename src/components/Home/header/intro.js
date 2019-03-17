@@ -1,5 +1,5 @@
 import React from 'react';
-import './Intro.scss';
+import play from '../../../image/play.svg';
 
 const Intro = () => {
   return (
@@ -10,7 +10,10 @@ const Intro = () => {
       <p className="paragraph paragraph_line_high paragraph_color_white intro__paragraph">
         Our services are not to be reckoned with upload Products can sliping in your home and see theyou an edge over the online competitors.of big businesses data
       </p>
-      <button className="button button_color_white button_size_large">Get Started</button>
+      <button className="button button_color_blue button_size_large">Get Started</button>
+      <button className="button button_color_blue button_size_large">
+        <img src={play} alt="Watch video" className="image"/>
+      </button>
     </div>  
   );
 }
