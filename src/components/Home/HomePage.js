@@ -4,6 +4,7 @@ import Intro from './header/intro';
 import HeaderImage from './header/HeaderImage';
 import About from './about/About';
 import ServiceSection from './service/ServiceSection';
+import CountrySection from './countries/CountrySection';
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <main className="mainContent" role="main">
         <About />
         <ServiceSection />
+        <CountrySection />
       </main>
     </React.Fragment>
   );
