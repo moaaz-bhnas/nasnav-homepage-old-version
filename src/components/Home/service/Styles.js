@@ -1,10 +1,11 @@
 import React from 'react';
 import stylesImage from '../../../image/styles-image.png';
 import dot from '../../../image/dot.svg';
+import './Styles.scss';
 
 const Styles = () => {
   return (
-    <article className="service" role="article">
+    <article className="service navboxStyles" role="article">
       <div className="serviceImageContainer serviceImageContainer_width_half serviceImageContainer_float_left">
         <img src={stylesImage} alt="Navbox styles"     className="image serviceImageContainer__image"/>
       </div>
