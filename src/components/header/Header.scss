@@ -10,8 +10,10 @@
 
   position: relative;
 
+  // overflow-x: hidden;
+
   @media screen and (min-width: $break-sidenav) {
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
   }
 }
 

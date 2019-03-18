@@ -5,8 +5,8 @@ import tablet from '../../../image/home-header-tablet.png';
 const HeaderImage = () => {
   return (
     <div className="headerImageContainer headerImageContainer_width_third">
-      <img src={tablet} alt="Tablet"/>
-      <img src={phone} alt="Phone"/>
+      <img className="headerImageContainer__image1" src={tablet} alt="Tablet"/>
+      <img className="headerImageContainer__image2" src={phone} alt="Phone"/>
     </div>
   );
 }

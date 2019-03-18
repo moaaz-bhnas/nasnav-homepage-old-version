@@ -25,6 +25,36 @@
   }
 }
 
+/* images --- */
+.headerImageContainer__image1 {
+  max-width: 50%;
+
+  @media screen and (min-width: $break-xlarge) {
+    width: 160%;
+    max-width: initial;
+
+    position: absolute;
+    top: 7rem;
+    left: -12rem;
+
+    vertical-align: top;
+  }
+}
+.headerImageContainer__image2 {
+  max-width: 50%;
+
+  @media screen and (min-width: $break-xlarge) {
+    width: 110%;
+    max-width: initial;
+
+    position: absolute;
+    top: .2rem;
+    left: 22rem;
+
+    vertical-align: top;
+  }
+}
+
 /* Laptop --- */
 .headerImageContainer__laptop {
   max-width: 100%;
