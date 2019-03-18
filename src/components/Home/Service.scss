@@ -1,4 +1,46 @@
 @import '../../sass-modules/colors';
+@import '../../sass-modules/breakpoints';
+
+/* service image --- */
+.serviceImageContainer {
+  max-width: 32.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// modifiers
+.serviceImageContainer_width_half {
+  @media screen and (min-width: $break-service) {
+    width: 60%;
+  }
+}
+.serviceImageContainer_float_right {
+  @media screen and (min-width: $break-service) {
+    float: right;
+  }
+}
+
+/* service content --- */
+.service__content {
+  max-width: 34rem;
+  margin: 0 auto;
+
+  @media screen and (min-width: $break-service) {
+    display: inline-block;
+  }
+}
+
+// modifiers
+.service__content_width_half {
+  @media screen and (min-width: $break-service) {
+    width: 40%;
+  }
+}
+.service__content_float_left {
+  @media screen and (min-width: $break-service) {
+    float: left;
+  }
+}
 
 /* title --- */
 .service__title {
