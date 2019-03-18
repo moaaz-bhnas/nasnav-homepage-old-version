@@ -1,6 +1,10 @@
 @import '../../sass-modules/colors';
 @import '../../sass-modules/breakpoints';
 
+.service {
+  position: relative;
+}
+
 /* service image --- */
 .serviceImageContainer {
   max-width: 32.25rem;
@@ -25,6 +29,23 @@
     float: left;
   }
 }
+.serviceImageContainer_fixed {
+  margin-right: -2rem; 
+
+  @media screen and (min-width: $break-large) {
+    width: 30%;
+    position: absolute;
+    right: calc((-100vw + 65rem) / 2);
+  }
+
+  @media screen and (min-width: $break-service-large) {
+    width: 40%;
+  }
+
+  @media screen and (min-width: $break-service-xlarge) {
+    width: 50%;
+  }
+}
 
 /* service content --- */
 .service__content {
@@ -33,6 +54,15 @@
 }
 
 // modifiers
+.service__content_align_center {
+  @media screen and (min-width: $break-large) {
+    text-align: center;
+    width: 40%;
+  }
+}
+.service__content_move_up {
+  margin-top: -6rem;
+}
 .service__content_width_half {
   @media screen and (min-width: $break-service) {
     width: 40%;

@@ -19,29 +19,29 @@ const About = () => {
         </p>
         <button className="button button_size_large button_color_white button_back_blue button_shape_oval">Get Started</button>
         <ul className="list serviceIconList">
-          <li className="service serviceIconList__item">
-            <img className="service__image" src={service1} alt=""/>
-            <span className="service__name">Analytics</span>
+          <li className="serviceIconList__item">
+            <img className="serviceIconList__image" src={service1} alt=""/>
+            <span className="serviceIconList__name">Analytics</span>
           </li>
-          <li className="service serviceIconList__item">
-            <img className="service__image" src={service2} alt=""/>
-            <span className="service__name">360° <br /> Editor</span>
+          <li className="serviceIconList__item">
+            <img className="serviceIconList__image" src={service2} alt=""/>
+            <span className="serviceIconList__name">360° <br /> Editor</span>
           </li>
-          <li className="service serviceIconList__item">
-            <img className="service__image" src={service3} alt=""/>
-            <span className="service__name">NavBox</span>
+          <li className="serviceIconList__item">
+            <img className="serviceIconList__image" src={service3} alt=""/>
+            <span className="serviceIconList__name">NavBox</span>
           </li>
-          <li className="service serviceIconList__item">
-            <img className="service__image" src={service4} alt=""/>
-            <span className="service__name">Google</span>
+          <li className="serviceIconList__item">
+            <img className="serviceIconList__image" src={service4} alt=""/>
+            <span className="serviceIconList__name">Google</span>
           </li>
-          <li className="service serviceIconList__item">
-            <img className="service__image" src={service5} alt=""/>
-            <span className="service__name">Online <br /> Payment</span>
+          <li className="serviceIconList__item">
+            <img className="serviceIconList__image" src={service5} alt=""/>
+            <span className="serviceIconList__name">Online <br /> Payment</span>
           </li>
-          <li className="service serviceIconList__item">
-            <img className="service__image" src={service6} alt=""/>
-            <span className="service__name">Orders</span>
+          <li className="serviceIconList__item">
+            <img className="serviceIconList__image" src={service6} alt=""/>
+            <span className="serviceIconList__name">Orders</span>
           </li>
         </ul>
       </div>

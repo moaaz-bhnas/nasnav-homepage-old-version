@@ -2,6 +2,7 @@ import React from 'react';
 import NavBox from './NavBox';
 import './ServiceSection.scss';
 import Styles from './Styles';
+import View360 from './View360';
 
 const ServiceSection = () => {
   return (
@@ -14,6 +15,9 @@ const ServiceSection = () => {
           </li>
           <li className="serviceList__item">
             <Styles />
+          </li>
+          <li className="serviceList__item">
+            <View360 />
           </li>
         </ul>
       </div>
