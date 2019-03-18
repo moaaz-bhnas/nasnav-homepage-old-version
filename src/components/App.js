@@ -15,7 +15,7 @@ import HomePage from './Home/HomePage';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/book-shelves">
         <div className="App">
           <Switch>
             <Route exact path="/" component={HomePage} />
