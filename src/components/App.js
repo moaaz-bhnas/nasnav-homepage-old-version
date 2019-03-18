@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.scss';
 import './App.scss';
 import './Container.scss';
@@ -15,13 +15,7 @@ import HomePage from './Home/HomePage';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename="/book-shelves">
-        <div className="App">
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-          </Switch>
-        </div>
-      </BrowserRouter>
+      <HomePage />
     );
   }
 }
