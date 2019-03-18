@@ -5,6 +5,7 @@ import HeaderImage from './header/HeaderImage';
 import About from './about/About';
 import ServiceSection from './service/ServiceSection';
 import CountrySection from './countries/CountrySection';
+import Footer from '../footer/Footer';
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
         <ServiceSection />
         <CountrySection />
       </main>
+      <Footer />
     </React.Fragment>
   );
 }

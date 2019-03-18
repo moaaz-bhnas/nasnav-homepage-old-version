@@ -1,6 +1,23 @@
 @import '../../../sass-modules/breakpoints';
+@import '../../../sass-modules/colors';
 
-.mainContent__ServiceSection {
+.serviceSection {
+  &::before {
+    content: '';
+    position: absolute;
+    top: 88rem;
+    right: 0;
+    z-index: -1;
+    width: 180%;
+    height: 35rem;
+    background-color: $ribbon;
+  
+    transform-origin: 100% 0;
+    transform: rotate(-24deg);
+  }
+}
+
+.mainContent__serviceSection {
   margin: 4rem 0;
 }
 
