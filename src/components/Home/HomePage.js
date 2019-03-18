@@ -4,7 +4,6 @@ import Intro from './header/intro';
 import HeaderImage from './header/HeaderImage';
 import About from './about/About';
 import ServiceSection from './service/ServiceSection';
-import './Service.scss';
 
 const HomePage = () => {
   return (

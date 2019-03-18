@@ -1,5 +1,5 @@
-@import '../../sass-modules/colors';
-@import '../../sass-modules/breakpoints';
+@import '../../../sass-modules/colors';
+@import '../../../sass-modules/breakpoints';
 
 .service {
   position: relative;
@@ -11,6 +11,12 @@
   margin: 0 auto 2rem;
 
   position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
 }
 
 // modifiers
@@ -44,6 +50,20 @@
 
   @media screen and (min-width: $break-service-xlarge) {
     width: 50%;
+  }
+}
+.serviceImageContainer_fixed_left {
+  margin-left: -2rem; 
+
+  @media screen and (min-width: $break-dashboard) {
+    width: 64%;
+    max-width: initial;
+    position: absolute;
+    left: calc((-100vw + 65rem) / 2);
+  }
+
+  @media screen and (min-width: $break-service-xlarge) {
+    width: 70%;
   }
 }
 
