@@ -15,7 +15,6 @@ const View360 = () => {
         <img src={laptop} alt="Laptop" className="image serviceImageContainer__laptop"/>
         <img src={eye} alt="" className="serviceImageContainer__eye"/>
       </div>
-      <img src="" alt="" className="view360__image"/>
       <div className="service__content service__content_align_center service__content_width_ service__content_move_up">
         <h3 className="service__title">360 view</h3>
         <p className="paragraph service__paragraph paragraph_color_grey">

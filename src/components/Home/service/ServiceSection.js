@@ -3,6 +3,7 @@ import NavBox from './NavBox';
 import './ServiceSection.scss';
 import Styles from './Styles';
 import View360 from './View360';
+import ControlPanel from './ControlPanel';
 
 const ServiceSection = () => {
   return (
@@ -18,6 +19,9 @@ const ServiceSection = () => {
           </li>
           <li className="serviceList__item">
             <View360 />
+          </li>
+          <li className="serviceList__item">
+            <ControlPanel />
           </li>
         </ul>
       </div>
