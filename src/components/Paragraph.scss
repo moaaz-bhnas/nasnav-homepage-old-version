@@ -6,12 +6,18 @@
 .paragraph_line_high {
   line-height: 1.5;
 }
+.paragraph_line_short {
+  line-height: 1.15;
+}
 
 /* Weight --- */
 .paragraph_weight_light {
   font-weight: 300;
 }
-.paragraph_weight_bold {
+.paragraph_weight_med {
+  font-weight: 500;
+}
+.paragraph_weight_semiBold {
   font-weight: 600;
 }
 
@@ -37,7 +43,7 @@
   font-size: 1.8rem;
 
   @media screen and (min-width: $break-jumbotron) {
-    font-size: 2.8rem;
+    font-size: 2.64rem;
   }
 }
 
@@ -62,4 +68,8 @@
   max-width: 47rem;
 }
 
+/* Space between letters --- */
+.paragraph_letters_spaced {
+  letter-spacing: .02rem;
+}
 
