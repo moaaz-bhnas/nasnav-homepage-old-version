@@ -1,6 +1,5 @@
 import React from 'react';
 import Topbar from './Topbar';
-import Laptop from './Laptop';
 import curve from '../../image/curve-cropped.png';
 import './Header.scss';
 
@@ -11,7 +10,7 @@ const Header = (props) => {
       <div className="container">
         <Topbar />
         {props.intro} {/* <Intro /> */}
-        <Laptop />
+        {props.headerImage}
       </div>
       <img className="header__curve" src={curve} alt="" aria-hidden="true" />
     </header>

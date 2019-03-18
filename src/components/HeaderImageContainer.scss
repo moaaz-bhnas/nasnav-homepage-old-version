@@ -1,0 +1,42 @@
+@import '../sass-modules/breakpoints';
+
+.headerImageContainer {
+  width: 100%;
+  max-width: 486px;
+  margin: 0 auto;
+
+  position: relative;
+
+  @media screen and (min-width: $break-sidenav) {
+    display: inline-block;
+    max-width: initial;
+  }
+}
+
+// modifiers
+.headerImageContainer_width_half {
+  @media screen and (min-width: $break-sidenav) {
+    width: 50%;
+  }
+}
+.headerImageContainer_width_third {
+  @media screen and (min-width: $break-sidenav) {
+    width: 38%;
+  }
+}
+
+/* Laptop --- */
+.headerImageContainer__laptop {
+  max-width: 100%;
+
+  @media screen and (min-width: $break-xlarge) {
+    width: 115%;
+    max-width: initial;
+
+    position: absolute;
+    top: -2rem;
+    left: 0;
+
+    vertical-align: top;
+  }
+}
