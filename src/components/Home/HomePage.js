@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../header/Header';
 import Intro from './header/intro';
 import HeaderImage from './header/HeaderImage';
+import About from './about/About';
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
         intro={<Intro />} 
         headerImage={<HeaderImage />}
       />
+      <About />
     </React.Fragment>
   );
 }

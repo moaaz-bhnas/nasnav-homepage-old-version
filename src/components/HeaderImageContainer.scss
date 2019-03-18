@@ -1,15 +1,24 @@
 @import '../sass-modules/breakpoints';
 
 .headerImageContainer {
-  width: 100%;
-  max-width: 486px;
-  margin: 0 auto;
+  text-align: center;
+  width: 170%;
 
   position: relative;
+  transform: translateX(-20.6%);
 
   @media screen and (min-width: $break-sidenav) {
-    display: inline-block;
-    max-width: initial;
+    width: 70%;
+    position: absolute;
+    top: 15rem;
+    right: -8rem;
+    transform: translate(0);
+  }
+
+  @media screen and (min-width: $break-xlarge) {
+    width: 90%;
+    top: 8rem;
+    right: -17rem;
   }
 }
 
@@ -21,37 +30,29 @@
 }
 .headerImageContainer_width_third {
   @media screen and (min-width: $break-sidenav) {
-    width: 38%;
   }
 }
 
 /* images --- */
 .headerImageContainer__image1 {
-  max-width: 50%;
+  width: 60%;
+  max-width: 33.75rem;
+
+  @media screen and (min-width: $break-sidenav) {
+    transform: translate(3rem, 25%);
+  }
 
   @media screen and (min-width: $break-xlarge) {
-    width: 160%;
     max-width: initial;
-
-    position: absolute;
-    top: 7rem;
-    left: -12rem;
-
-    vertical-align: top;
+    transform: translate(5.7rem, 22%);
   }
 }
 .headerImageContainer__image2 {
-  max-width: 50%;
+  width: 40%;
+  max-width: 22.5rem;
 
   @media screen and (min-width: $break-xlarge) {
-    width: 110%;
     max-width: initial;
-
-    position: absolute;
-    top: .2rem;
-    left: 22rem;
-
-    vertical-align: top;
   }
 }
 

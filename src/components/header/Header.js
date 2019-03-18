@@ -7,6 +7,7 @@ const Header = (props) => {
   // const 
   return (
     <header className="header" role="banner">
+      <h1 className="header__title">NasNav</h1>
       <div className="container">
         <Topbar />
         {props.intro} {/* <Intro /> */}
