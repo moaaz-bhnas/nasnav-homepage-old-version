@@ -1,0 +1,39 @@
+@import '../../sass-modules/colors';
+
+/* title --- */
+.service__title {
+  position: absolute;
+  left: -100rem;
+}
+
+/* paragraph --- */
+.service__paragraph:nth-of-type(2) {
+  margin: 0;
+}
+
+/* step --- */
+.step {
+  color: $light-grey;
+}
+
+.stepList__step {
+  margin: 1.5rem 0;
+}
+
+/* dot icon --- */
+.step__icon {
+  display: inline-block;
+  width: .5rem;
+  margin-right: 1rem;
+}
+
+/* step explanation --- */
+.step__explanation {
+  vertical-align: middle;
+}
+
+/* service image --- */
+.serviceImageContainer {
+  margin-bottom: 2rem;
+  position: relative;
+}

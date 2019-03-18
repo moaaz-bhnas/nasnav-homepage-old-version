@@ -10,6 +10,9 @@
 }
 
 // modifiers
+.buttn_decoration_underline {
+  text-decoration: underline;
+}
 .button_shape_oval {
   border-radius: 1.4rem;
 }
@@ -33,6 +36,6 @@
   background-color: $blue;
 }
 .button_color_blue {
-  color: $blue;
+  color: $dark-blue;
   background-color: #fff;
 }

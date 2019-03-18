@@ -6,7 +6,7 @@ import './Header.scss';
 const Header = (props) => {
   // const 
   return (
-    <header className="header" role="banner">
+    <header className="header App__header" role="banner">
       <h1 className="header__title">NasNav</h1>
       <div className="container">
         <Topbar />

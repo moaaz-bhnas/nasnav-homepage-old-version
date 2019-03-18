@@ -3,6 +3,8 @@ import Header from '../header/Header';
 import Intro from './header/intro';
 import HeaderImage from './header/HeaderImage';
 import About from './about/About';
+import ServiceSection from './service/ServiceSection';
+import './Service.scss';
 
 const HomePage = () => {
   return (
@@ -11,7 +13,10 @@ const HomePage = () => {
         intro={<Intro />} 
         headerImage={<HeaderImage />}
       />
-      <About />
+      <main className="mainContent" role="main">
+        <About />
+        <ServiceSection />
+      </main>
     </React.Fragment>
   );
 }
