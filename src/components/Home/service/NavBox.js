@@ -20,7 +20,7 @@ const NavBox = () => {
         <img src={designEditorBadge} alt="Design editor badge" className="serviceImageContainer__designEditorBadge"/>
         <img src={view360Badge} alt="360 view badge" className="serviceImageContainer__360ViewBadge"/>
       </div>
-      <div className="service__content service__content_width_half">
+      <div className="service__content service__content_width_half service__content_float_left">
         <h3 className="service__title">NavBox</h3>
         <p className="paragraph service__paragraph paragraph_color_grey">
           Reach the buyer faster
@@ -52,7 +52,7 @@ const NavBox = () => {
             </span>
           </li>
         </ul>
-        <button className="button button_color_white button_shape_oval button_size_large buttn_color_white buttn_decoration_underline">Get Started</button>
+        <button className="button button_color_white button_back_blue button_shape_oval button_size_large buttn_decoration_underline">Get Started</button>
       </div>
     </article>
   );

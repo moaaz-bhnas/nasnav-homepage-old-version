@@ -33,9 +33,16 @@
 }
 .button_color_white {
   color: #fff;
-  background-color: $blue;
 }
 .button_color_blue {
   color: $dark-blue;
+}
+.button_back_white {
   background-color: #fff;
+}
+.button_back_blue {
+  background-color: $blue;
+}
+.button_back_green {
+  background-color: $green;
 }

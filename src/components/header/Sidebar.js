@@ -57,7 +57,7 @@ class Sidebar extends Component {
             </li>
           </ul>
         </nav>
-        <button className="button button_color_white sidebar__button button_shape_oval button_size_med">Get Started</button>
+        <button className="button button_color_white button_back_blue sidebar__button button_shape_oval button_size_med">Get Started</button>
         <div 
           className="sidebarOverlay" 
           onClick={closeSidebar}

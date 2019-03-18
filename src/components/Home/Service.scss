@@ -4,8 +4,9 @@
 /* service image --- */
 .serviceImageContainer {
   max-width: 32.25rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 2rem;
+
+  position: relative;
 }
 
 // modifiers
@@ -19,15 +20,16 @@
     float: right;
   }
 }
+.serviceImageContainer_float_left {
+  @media screen and (min-width: $break-service) {
+    float: left;
+  }
+}
 
 /* service content --- */
 .service__content {
   max-width: 34rem;
   margin: 0 auto;
-
-  @media screen and (min-width: $break-service) {
-    display: inline-block;
-  }
 }
 
 // modifiers
@@ -39,6 +41,11 @@
 .service__content_float_left {
   @media screen and (min-width: $break-service) {
     float: left;
+  }
+}
+.service__content_float_right {
+  @media screen and (min-width: $break-service) {
+    float: right;
   }
 }
 
@@ -74,8 +81,7 @@
   vertical-align: middle;
 }
 
-/* service image --- */
-.serviceImageContainer {
-  margin-bottom: 2rem;
-  position: relative;
+/* button --- */
+.service__button:first-of-type {
+  margin-right: 1.5rem;
 }

@@ -7,3 +7,14 @@
   position: absolute;
   left: -100rem;
 }
+
+/* service item --- */
+.serviceList__item {
+  margin-bottom: 4rem;
+
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}

@@ -1,13 +1,14 @@
 import React from 'react';
 import stylesImage from '../../../image/styles-image.png';
+import dot from '../../../image/dot.svg';
 
 const Styles = () => {
   return (
     <article className="service" role="article">
-      <div className="serviceImageContainer serviceImageContainer_width_half serviceImageContainer_float_right">
+      <div className="serviceImageContainer serviceImageContainer_width_half serviceImageContainer_float_left">
         <img src={stylesImage} alt="Navbox styles"     className="image serviceImageContainer__image"/>
       </div>
-      <div className="service__content service__content_width_half">
+      <div className="service__content service__content_width_half service__content_float_right">
         <h3 className="service__title">NavBox Styles</h3>
         <p className="paragraph service__paragraph paragraph_color_grey">
           How will my products be displayed?
@@ -38,7 +39,8 @@ const Styles = () => {
             </span>
           </li>
         </ul>
-        <button className="button button_color_white button_shape_oval button_size_large buttn_color_white buttn_decoration_underline">Get Started</button>
+        <button className="button service__button button_color_white button_back_blue button_shape_oval button_size_large buttn_color_white buttn_decoration_underline">Get Started</button>
+        <button className="button button_color_white button_back_green button_shape_oval button_size_large  buttn_decoration_underline">Live Demo</button>
       </div>
     </article>
   );
